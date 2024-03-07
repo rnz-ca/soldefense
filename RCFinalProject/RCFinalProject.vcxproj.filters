@@ -15,114 +15,114 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="app.cpp">
+    <ClCompile Include="src\app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entity.cpp">
+    <ClCompile Include="src\entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gamemanager.cpp">
+    <ClCompile Include="src\gamemanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ingamestate.cpp">
+    <ClCompile Include="src\ingamestate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playership.cpp">
+    <ClCompile Include="src\playership.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="projectile.cpp">
+    <ClCompile Include="src\projectile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="src\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="enemy.cpp">
+    <ClCompile Include="src\enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="animationmanager.cpp">
+    <ClCompile Include="src\animationmanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="enemyformation.cpp">
+    <ClCompile Include="src\enemyformation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="boss.cpp">
+    <ClCompile Include="src\boss.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="starfield.cpp">
+    <ClCompile Include="src\starfield.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="explosion.cpp">
+    <ClCompile Include="src\explosion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="texture.cpp">
+    <ClCompile Include="src\texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sound.cpp">
+    <ClCompile Include="src\sound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="introstate.cpp">
+    <ClCompile Include="src\introstate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="app.h">
+    <ClInclude Include="src\app.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="src\utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="entity.h">
+    <ClInclude Include="src\entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ingamestate.h">
+    <ClInclude Include="src\ingamestate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gamestate.h">
+    <ClInclude Include="src\gamestate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="playership.h">
+    <ClInclude Include="src\playership.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="projectile.h">
+    <ClInclude Include="src\projectile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="enemy.h">
+    <ClInclude Include="src\enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="doublelinkedlist.h">
+    <ClInclude Include="src\doublelinkedlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="preproc.h">
+    <ClInclude Include="src\preproc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="animationmanager.h">
+    <ClInclude Include="src\animationmanager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="enemyformation.h">
+    <ClInclude Include="src\enemyformation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="boss.h">
+    <ClInclude Include="src\boss.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="starfield.h">
+    <ClInclude Include="src\starfield.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="explosion.h">
+    <ClInclude Include="src\explosion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="texture.h">
+    <ClInclude Include="src\texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sound.h">
+    <ClInclude Include="src\sound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gamemanager.h">
+    <ClInclude Include="src\gamemanager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="introstate.h">
+    <ClInclude Include="src\introstate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
