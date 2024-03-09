@@ -7,12 +7,9 @@
 #include "preproc.h"
 
 #if SOUND_ENABLED
-#if __APPLE__
-// TO-DO: add inclusion of header files for FMOD for MacOS
-#else
+
 #include <fmod.hpp>
 #include <fmod_errors.h>
-#endif
 #include <string>
 
 // wrapper class for an FMOD Sound object

@@ -7,17 +7,18 @@
 #if __APPLE__
 #include <SDL2/SDL.h>
 #include <SDL2_ttf/SDL_ttf.h>
-// TO-DO: add inclusion of header files for FMOD for MacOS
 #else
 #include <SDL.h>
 #include <SDL_ttf.h>
-#include <fmod.hpp>
-#include <fmod_errors.h>
 #endif
 #include "preproc.h"
 #include "gamemanager.h"
 #include "gamestate.h"
 #include <string>
+#if SOUND_ENABLED
+#include <fmod.hpp>
+#include <fmod_errors.h>
+#endif
 
 class CGameState;
 
