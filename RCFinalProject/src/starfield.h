@@ -26,9 +26,9 @@ private:
 
 	enum class EStarDistance : int
 	{
-		FAR = 0,
-		MEDIUM = 1,
-		CLOSE = 2
+		DISTANCE_FAR = 0,
+		DISTANCE_MEDIUM = 1,
+		DISTANCE_CLOSE = 2
 	};
 
 	enum class EStarType : int

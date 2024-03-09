@@ -179,6 +179,13 @@
     <ClInclude Include="src\texture.h" />
     <ClInclude Include="src\utils.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="diagrams\Entity.cd" />
+    <None Include="diagrams\MainClass Diagram.cd" />
+    <None Include="diagrams\Overview Class Diagram.cd" />
+    <None Include="diagrams\SubEntities.cd" />
+    <None Include="diagrams\GameState Diagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

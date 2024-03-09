@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CProjectile">
+    <Position X="0.5" Y="1.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CProjectile::EAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\projectile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CProjectile::EProjectileOwner" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\projectile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CProjectile::EProjectileType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\projectile.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABQCQAAABIAAAgAAAAAABAAAAAIAgAAAYBBDAACDBAA=</HashCode>
+      <FileName>src\projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayerShip">
+    <Position X="4.5" Y="1.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CPlayerShip::EAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\playership.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CPlayerShip::EShieldAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\playership.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="CPlayerShip::SInputData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\playership.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="CPlayerShip::EState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\playership.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAQCWHAAAARBAgCBAAAiBACADAACACACKTAGgJBHACA=</HashCode>
+      <FileName>src\playership.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplosion">
+    <Position X="13" Y="1.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CExplosion::EAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\explosion.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQCSAAAABAACgAAAAAAAAAAAAEAgAAACAAGAAADBAA=</HashCode>
+      <FileName>src\explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEntity" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FURIoiEAGEAQsgAQAAAABAAARAFAAgEAIQACAAASYQE=</HashCode>
+      <FileName>src\entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemy">
+    <Position X="8.25" Y="1.75" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CEnemy::EAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\enemy.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQCQgAAIAAAAiAAQAAkKQAAABIAAECACAAWABADAAA=</HashCode>
+      <FileName>src\enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss">
+    <Position X="16.5" Y="1.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CBoss::EAnimID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\boss.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CBoss::EBossType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\boss.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CBoss::EState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\boss.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAwiSNiAIYADBgAg1AEDkBCAAADAAgsAAIhjAQIDAAI=</HashCode>
+      <FileName>src\boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

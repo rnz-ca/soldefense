@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CGameState">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAQAAgQAAIAAAAAAAAAAAAAAAAACBEBAAAA=</HashCode>
+      <FileName>src\gamestate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIngameState">
+    <Position X="8.75" Y="4.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CIngameState::EState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\ingamestate.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CIngameState::EMessageState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\ingamestate.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BdZWQmJ8GAtWjoYQ5GEqBzmTqXY4FUhEF+I7QVjBosY=</HashCode>
+      <FileName>src\ingamestate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIntroState">
+    <Position X="1.25" Y="4.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CIntroState::EState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\introstate.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="CIntroState::SInputData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\introstate.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CMQEAGYCCDgAAtYABAE7mACRAYCAAQBAACByAMJKIcE=</HashCode>
+      <FileName>src\introstate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

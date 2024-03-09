@@ -13,6 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{5f0dda2b-703b-40da-bdc9-2c0a85862e65}</UniqueIdentifier>
+      <Extensions>cd</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -86,12 +90,6 @@
     <ClInclude Include="src\playership.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\projectile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\enemy.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\doublelinkedlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -104,13 +102,7 @@
     <ClInclude Include="src\enemyformation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\boss.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="src\starfield.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\explosion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\texture.h">
@@ -125,5 +117,34 @@
     <ClInclude Include="src\introstate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\boss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="diagrams\Entity.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\MainClass Diagram.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\Overview Class Diagram.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\SubEntities.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+    <None Include="diagrams\GameState Diagram.cd">
+      <Filter>Diagrams</Filter>
+    </None>
   </ItemGroup>
 </Project>

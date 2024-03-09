@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CApp">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Cd4BABCCQAQQADARBAAAgAAABAhAICEABEACEUAAB4w=</HashCode>
+      <FileName>src\app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameManager">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CGameManager::EGameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\gamemanager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEQEAEMAAAoAAAIAAAAIAAAAAABAAgAAAAAiAABAAAA=</HashCode>
+      <FileName>src\gamemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimationManager">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYCACAgCAACAgAAAKAACAAAAAAAAAgADIAAFAABAEA=</HashCode>
+      <FileName>src\animationmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemyFormation">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CEnemyFormation::EState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\enemyformation.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AA1BCGAAMAABAwAEkAlMAgAACAJAAQAACAAEMCUAAAE=</HashCode>
+      <FileName>src\enemyformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CTexture::EFont" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\texture.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAQEAAAAAAgABAAAAAEBAggBAAACAAAAAAEAAACE=</HashCode>
+      <FileName>src\texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSound">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAEAAAAEAAAABAAAAAgAAAAAAABAE=</HashCode>
+      <FileName>src\sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStarfield">
+    <Position X="10" Y="0.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CStarfield::EStarDistance" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\starfield.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="CStarfield::EStarType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\starfield.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="CStarfield::SStarInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\starfield.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="CStarfield::SStar" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\starfield.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="CStarfield::EAnimationState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\starfield.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAQAACAAwJAAQiAAAABUAAA8AABAVAAAAAQCIBAAgAA=</HashCode>
+      <FileName>src\starfield.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SAnimationDef">
+    <Position X="4.25" Y="5.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SAnimationDef::EPlayMethod" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>src\animationmanager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAIAAAAAAAAAAAAAAAACAAEAAAAAAAAQAA=</HashCode>
+      <FileName>src\animationmanager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Utils::SGridLocation8">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\utils.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

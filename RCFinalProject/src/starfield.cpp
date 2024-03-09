@@ -17,12 +17,12 @@ void CStarfield::Init()
 
 	// set rects of each of the images contained in the spritesheet
 	m_nebulaRect = SDL_Rect{ 100, 0, 1920, 1080 };
-	m_blueStarRects[static_cast<int>(EStarDistance::FAR)] = SDL_Rect{ 0, 0, 12, 12 };
-	m_blueStarRects[static_cast<int>(EStarDistance::MEDIUM)] = SDL_Rect{ 0, 12, 25, 25 };
-	m_blueStarRects[static_cast<int>(EStarDistance::CLOSE)] = SDL_Rect{ 0, 37, 50, 50 };
-	m_redStarRects[static_cast<int>(EStarDistance::FAR)] = SDL_Rect{ 0, 87, 12, 12 };
-	m_redStarRects[static_cast<int>(EStarDistance::MEDIUM)] = SDL_Rect{ 0, 99, 25, 25 };
-	m_redStarRects[static_cast<int>(EStarDistance::CLOSE)] = SDL_Rect{ 0, 124, 50, 50 };
+	m_blueStarRects[static_cast<int>(EStarDistance::DISTANCE_FAR)] = SDL_Rect{ 0, 0, 12, 12 };
+	m_blueStarRects[static_cast<int>(EStarDistance::DISTANCE_MEDIUM)] = SDL_Rect{ 0, 12, 25, 25 };
+	m_blueStarRects[static_cast<int>(EStarDistance::DISTANCE_CLOSE)] = SDL_Rect{ 0, 37, 50, 50 };
+	m_redStarRects[static_cast<int>(EStarDistance::DISTANCE_FAR)] = SDL_Rect{ 0, 87, 12, 12 };
+	m_redStarRects[static_cast<int>(EStarDistance::DISTANCE_MEDIUM)] = SDL_Rect{ 0, 99, 25, 25 };
+	m_redStarRects[static_cast<int>(EStarDistance::DISTANCE_CLOSE)] = SDL_Rect{ 0, 124, 50, 50 };
 
 	// generate starfield	
 	for (int i = 0; i < NUM_STARFIELD_SECTIONS; i++)
@@ -41,7 +41,7 @@ CStarfield::SStar* CStarfield::GenerateStar(int lowerboundY, int upperboundY)
 	int starPosX = starCenterX - static_cast<int>(m_blueStarRects[0].w / 2.0f);
 	int starPosY = starCenterY - static_cast<int>(m_blueStarRects[0].h / 2.0f);
 	EStarType type = static_cast<EStarType>(Utils::GetRandomUint32(0, static_cast<int>(EStarType::RED)));
-	EStarDistance distance = static_cast<EStarDistance>(Utils::GetRandomUint32(0, static_cast<int>(EStarDistance::CLOSE)));
+	EStarDistance distance = static_cast<EStarDistance>(Utils::GetRandomUint32(0, static_cast<int>(EStarDistance::DISTANCE_CLOSE)));
 	return new SStar(SDL_Point{ starPosX, starPosY }, type, distance);
 }
 

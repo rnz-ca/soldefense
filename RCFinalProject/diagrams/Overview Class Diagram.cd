@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAnimationManager" Collapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYCACAgCAACAgAAAKAACAAAAAAAAAgADIAAFAABAEA=</HashCode>
+      <FileName>src\animationmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CApp" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Cd4BABCCQAQQADARBAAAgAAABAhAICEABEACEUAAB4w=</HashCode>
+      <FileName>src\app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDoubleLinkedList&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAAAABAAEAAAAAAAQAEAACAAAAQAEAAAAAAAA=</HashCode>
+      <FileName>src\doublelinkedlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemy" Collapsed="true">
+    <Position X="1.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCQgAAIAAAAiAAQAAkKQAAABIAAECACAAWABADAAA=</HashCode>
+      <FileName>src\enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemyFormation" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AA1BCGAAMAABAwAEkAlMAgAACAJAAQAACAAEMCUAAAE=</HashCode>
+      <FileName>src\enemyformation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEntity" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FURIoiEAGEAQsgAQAAAABAAARAFAAgEAIQACAAASYQE=</HashCode>
+      <FileName>src\entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplosion" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCSAAAABAACgAAAAAAAAAAAAEAgAAACAAGAAADBAA=</HashCode>
+      <FileName>src\explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameManager" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEQEAEMAAAoAAAIAAAAIAAAAAABAAgAAAAAiAABAAAA=</HashCode>
+      <FileName>src\gamemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameState" Collapsed="true">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAQAAgQAAIAAAAAAAAAAAAAAAAACBEBAAAA=</HashCode>
+      <FileName>src\gamestate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIngameState" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BdZWQmJ8GAtWjoYQ5GEqBzmTqXY4FUhEF+I7QVjBosY=</HashCode>
+      <FileName>src\ingamestate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIntroState" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CMQEAGYCCDgAAtYABAE7mACRAYCAAQBAACByAMJKIcE=</HashCode>
+      <FileName>src\introstate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProjectile" Collapsed="true">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCQAAABIAAAgAAAAAABAAAAAIAgAAAYBBDAACDBAA=</HashCode>
+      <FileName>src\projectile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayerShip" Collapsed="true">
+    <Position X="10.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQCWHAAAARBAgCBAAAiBACADAACACACKTAGgJBHACA=</HashCode>
+      <FileName>src\playership.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss" Collapsed="true">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwiSNiAIYADBgAg1AEDkBCAAADAAgsAAIhjAQIDAAI=</HashCode>
+      <FileName>src\boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSound" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAEAAAAEAAAABAAAAAgAAAAAAABAE=</HashCode>
+      <FileName>src\sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQEAAAAAAgABAAAAAEBAggBAAACAAAAAAEAAACE=</HashCode>
+      <FileName>src\texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStarfield" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAQAACAAwJAAQiAAAABUAAA8AABAVAAAAAQCIBAAgAA=</HashCode>
+      <FileName>src\starfield.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SAnimationDef" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAAAAAIAAAAAAAAAAAAAAAACAAEAAAAAAAAQAA=</HashCode>
+      <FileName>src\animationmanager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SDoubleLinkedListNode&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAACAAAAAIAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\doublelinkedlist.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Utils::SGridLocation8" Collapsed="true">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\utils.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
