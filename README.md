@@ -5,6 +5,14 @@ This is my project for the CM3070-Final Project course.
 
 It is a vertical shooter inspired on the classic Space Invaders.  I used Visual Studio 2022, C++, SDL and FMOD for the implementation in Windows.  SDL and FMOD are crossplatform libraries which means code could be easily compiled in Xcode/MacOS, Linux or other OSes.
 
+## Source Code
+
+Located in the /RCFinalProject/src folder.
+
+## Binaries
+
+Located in the /distrib folder.
+
 The image-source folder contains spritesheets in Affinity Photo file format. 
 
 ## Authors
